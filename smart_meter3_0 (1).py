@@ -35,7 +35,7 @@ df['anomaly_label'] = df['anomaly'].map({1: 'Normal', -1: 'Anomaly'})
 # Check results
 df[['house_id', 'peak_load', 'avg_usage', 'usage_ratio', 'anomaly_label']].head()
 
-!pip install -q streamlit pyngrok
+#!pip install -q streamlit pyngrok
 
 from pyngrok import ngrok
 
